@@ -1,0 +1,21 @@
+body{
+    background-color: lemonchiffon;
+}
+
+#table-cover{
+    background-color: antiquewhite;
+    border: 0.4rem solid gray;
+    width: 40%;
+    text-align: center;
+}
+td{
+    border: 0.2rem solid gray;
+    
+}
+tr{
+    
+}
+#Xbutton{
+    position: relative;
+    left: 78.4%;
+}
