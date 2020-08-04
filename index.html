@@ -6,15 +6,19 @@
     </head>
     <body>
        <div id="calculator">
-           <table id="table-cover">
+           <table id="table-cover" onmouseover="">
+               <caption>Calculator</caption>
             <tr>
                 <td colspan="4" value="0" id="screen">0</td>
+            </tr>
+            <tr>
+                <td  id="cls"> <button id="cls" value="0" onclick="clearAll()">C</button></td>
             </tr>
             <tr>
                 <td><button class="button"value="7">7</button></td>
                 <td><button class="button" value="8">8</button></td>
                 <td><button class="button" value="9">9</button></td>
-                <td id="clear" ><button onclick="clearAll()">del</button></td>
+                <td id="clear" ><button onclick="del()">del</button></td>
             </tr>
             <tr>
                 <td><button class="button" value="4">4</button></td>
@@ -23,7 +27,7 @@
                 <td id="divide"><button value="/">/</button></td>
             </tr>
             <tr>
-                <td id="multiply"><button value="*">X</button></td>
+                <td id="multiply"><button value="*">X </button></td>
             </tr>
             <tr>
                 <td><button class="button" value="1">1</button></td>

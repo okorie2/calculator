@@ -1,21 +1,43 @@
 body{
     background-color: lemonchiffon;
+    
 }
+button{
+    width: 100%;
+    border-radius: 1.2rem;
+    font-size: 1.8rem;
+    color: lightcoral;
+    transition: width 2s, height 2s, transform 2s;
+}
+button:hover {
+    width: 50%;
+    transform: rotate(70deg);
+  }
 
 #table-cover{
     background-color: antiquewhite;
-    border: 0.4rem solid gray;
-    width: 40%;
+    border: 0.4rem solid rgba(121, 67, 78, 0.411);
+    border-radius: 1.7rem;
+    width: 30%;
+    height: 60%;
     text-align: center;
+    
 }
+#screen{
+    background-color:azure ;
+}
+#cls{
+    background-color: brown;
+    border-radius: 1.2rem brown;
+}
+
 td{
-    border: 0.2rem solid gray;
+    border: 0.2rem solid rgba(121, 67, 78, 0.411);
+    border-radius: 1.2rem;
     
 }
-tr{
-    
-}
-#Xbutton{
+
+#multiply{
     position: relative;
-    left: 78.4%;
+    left: 75.4%;
 }
